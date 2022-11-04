@@ -5,10 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+function HelloWorld () {
+  return <div>Hellow World!!!!</div>
+}
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  //< HelloWorld />
+  <App />
+  
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
